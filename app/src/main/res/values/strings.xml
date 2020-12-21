@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SystemStudentMange</string>
+    <string name="student_name">Name</string>
+    <string name="student_score">Grade</string>
+    <string name="student_number">StuNumber</string>
+    <string name="student_subject">Subject</string>
+</resources>
