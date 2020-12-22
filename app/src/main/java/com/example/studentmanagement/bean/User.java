@@ -5,7 +5,7 @@
  *
  * Date:2019\6\6
  */
-package com.example.tangzhuolin.bean;
+package com.example.studentmanagement.bean;
 
 
 //定义用户类，用于接收用户数据

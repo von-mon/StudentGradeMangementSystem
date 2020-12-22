@@ -1,4 +1,4 @@
-package com.example.tangzhuolin;
+package com.example.studentmanagement;
 
 import org.junit.Test;
 

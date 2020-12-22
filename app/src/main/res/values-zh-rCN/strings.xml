@@ -4,4 +4,6 @@
     <string name="student_score">成绩</string>
     <string name="student_number">学号</string>
     <string name="student_subject">课程</string>
+    <string name="main_title">欢迎来到学生成绩管理系统</string>
+    <string name="btn_start_text">开始体验</string>
 </resources>

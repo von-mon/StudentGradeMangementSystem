@@ -1,4 +1,4 @@
-package com.example.tangzhuolin.adapter;
+package com.example.studentmanagement.adapter;
 
 import android.content.Context;
 import android.view.View;
@@ -6,20 +6,20 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.example.tangzhuolin.R;
-import com.example.tangzhuolin.bean.Student;
+import com.example.studentmanagement.R;
+import com.example.studentmanagement.bean.Student;
 
 import java.util.List;
 
-public class ScoreAdapter extends BaseAdapter {
-
+public class SearchAdapter extends BaseAdapter {
     private List<Student> studentList;
     private Context context;
 
-     public ScoreAdapter(List<Student> studentList, Context context){
+    public SearchAdapter(List<Student> studentList, Context context) {
         this.studentList = studentList;
         this.context = context;
     }
+
     @Override
     public int getCount() {
         return studentList.size();
@@ -32,7 +32,7 @@ public class ScoreAdapter extends BaseAdapter {
 
     @Override
     public long getItemId(int i) {
-        return i;
+        return 0;
     }
 
     @Override
@@ -40,17 +40,16 @@ public class ScoreAdapter extends BaseAdapter {
         /**
          * 对ListView的优化，convertView为空时，创建一个新视图；
          * convertView不为空时，代表它是滚出屏幕，放入Recycler中的视图
-         * 若需要用到其他layout，则用inflate(),同一视图，用findViewBy()
+         * 若需要用到其他layout，则用inflate(),同一视图，用fiindViewBy()
          */
         View v;
         if (view == null) {
-            v = View.inflate(context, R.layout.activity_list, null);
+            v = View.inflate(context, R.layout.activity_list_search, null);
         } else {
-           v = view;
+            v = view;
         }
         //取出每一行的数据
         Student stu = studentList.get(i);
-        assert v != null;
         TextView score_name = v.findViewById(R.id.score_name);
         TextView score_number = v.findViewById(R.id.score_number);
         TextView score_subject = v.findViewById(R.id.score_subject);

@@ -4,4 +4,6 @@
     <string name="student_score">Grade</string>
     <string name="student_number">StuNumber</string>
     <string name="student_subject">Subject</string>
+    <string name="main_title">Welcome to the Student Achievement Management System</string>
+    <string name="btn_start_text">Start</string>
 </resources>

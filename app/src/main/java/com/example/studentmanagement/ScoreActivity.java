@@ -6,7 +6,7 @@
  * Date:2019\6\6
  */
 
-package com.example.tangzhuolin;
+package com.example.studentmanagement;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -27,10 +27,10 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.tangzhuolin.adapter.ScoreAdapter;
-import com.example.tangzhuolin.adapter.SearchAdapter;
-import com.example.tangzhuolin.bean.Student;
-import com.example.tangzhuolin.dbutils.CommonDatabase;
+import com.example.studentmanagement.adapter.ScoreAdapter;
+import com.example.studentmanagement.adapter.SearchAdapter;
+import com.example.studentmanagement.bean.Student;
+import com.example.studentmanagement.dbutils.CommonDatabase;
 
 import java.util.ArrayList;
 

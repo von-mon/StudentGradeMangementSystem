@@ -6,7 +6,7 @@
  * Date:2019\6\6
  */
 
-package com.example.tangzhuolin;
+package com.example.studentmanagement;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -15,7 +15,7 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -25,7 +25,7 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.tangzhuolin.dbutils.CommonDatabase;
+import com.example.studentmanagement.dbutils.CommonDatabase;
 
 public class LoginActivity extends AppCompatActivity {
     private EditText userNumber;

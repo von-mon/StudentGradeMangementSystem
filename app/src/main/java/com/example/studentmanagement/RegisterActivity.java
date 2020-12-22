@@ -5,7 +5,7 @@
  * <p>
  * Date:2019\6\6
  */
-package com.example.tangzhuolin;
+package com.example.studentmanagement;
 
 import android.app.Activity;
 import android.content.ContentValues;
@@ -19,8 +19,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.tangzhuolin.bean.User;
-import com.example.tangzhuolin.dbutils.CommonDatabase;
+import com.example.studentmanagement.bean.User;
+import com.example.studentmanagement.dbutils.CommonDatabase;
 
 public class RegisterActivity extends Activity {
     CommonDatabase database;

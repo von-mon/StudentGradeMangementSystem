@@ -6,7 +6,7 @@
  * Date:2019\6\6
  */
 
-package com.example.tangzhuolin.dbutils;
+package com.example.studentmanagement.dbutils;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

@@ -6,7 +6,7 @@
  * Date:2019\6\6
  */
 
-package com.example.tangzhuolin.bean;
+package com.example.studentmanagement.bean;
 
 /**
  * 建立学生类，存放从数据库中读出的学生信息
